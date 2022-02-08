@@ -1,0 +1,31 @@
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-square {
+    height: 50px;
+    width: 50px;
+    border: 3px solid powderblue;
+    background-color: black;
+    margin: 1px;
+    
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.divSpanText {
+    visibility: hidden;
+}
+
+.div-square:hover .divSpanText {
+    visibility: visible;
+}
+
+body {
+    background-color: black;
+}

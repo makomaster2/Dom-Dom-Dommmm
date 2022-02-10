@@ -2,7 +2,12 @@ window.addEventListener('DOMContentLoaded', function () {
     let button = document.createElement('button');
     let btnText = document.createTextNode('Add Square');
     button.appendChild(btnText);
-    document.body.appendChild(button);
+    
+    let buttonDiv = document.createElement('div');
+    document.body.appendChild(buttonDiv);
+    buttonDiv.appendChild(button);
+    buttonDiv.style.display = 'flex';
+    buttonDiv.style.justifyContent = 'center';
 
     let divContainer = document.createElement('div');
     divContainer.classList.add('div-container');
